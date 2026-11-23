@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Unkempt';
+  src: url('./assets/fonts/Unkempt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unkempt-Bold';
+  src: url('./assets/fonts/Unkempt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Imperator-SC';
+  src: url('./assets/fonts/ImperatorSmallCaps.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+@theme{
+  --font-unkempt: Unkempt, "sans-serif";
+  --font-unkempt-bold : Unkempt-Bold, "sans-serif"
+  
+}
+
+@theme {
+  --font-imperator: Imperator-SC, serif;
+}

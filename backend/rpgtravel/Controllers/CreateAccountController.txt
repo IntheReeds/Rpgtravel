@@ -1,0 +1,40 @@
+using Microsoft.AspNetCore.Mvc;
+using Npgsql;
+
+namespace rpgtravel.Controllers
+{
+   
+    [ApiController]
+    [Route("[controller]")]
+    public class CreateAccountController : ControllerBase
+    {
+         private readonly ILogger<AuthController> _logger;
+
+         public AuthController(ILogger<AuthController> logger)
+        {
+            _logger = logger;
+        }
+
+        [HttpPost("CreateAccount")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {CREATE TABLE object_templates (ID SERIAL PRIMARY KEY,
+                            Name VARCHAR(100) NOT NULL,
+                            GC NUMERIC(10, 3) NOT NULL,
+                            Weight NUMERIC(10, 3) NOT NULL,
+                            type object_type NOT NULL
+                            );
+            
+           
+        }
+
+
+
+        private async Task<bool> IsValidUser(string username, string password)
+        {
+           
+
+            
+        }
+}
+
+}

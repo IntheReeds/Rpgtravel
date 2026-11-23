@@ -1,0 +1,33 @@
+
+
+
+1.tab for actors including player characters checkmark box to hide either
+1.5 way to add actor type to db {Create New Actor}
+    way to add actor to active expiditon {Add to expeidition} 
+
+Id Name GC Weight Type  
+
+type only options no fill in
+
+2.tab for supplies maybe option to switch between using naval and land supplies
+2.5 way to add supply type to db {Create New Supply}
+    way to add supplies to expeidition {Add to expeidition}
+    way to increment 
+
+Id Name GC Weight Type 
+
+3. way to progress the cycle
+4. way to go back a cycle
+
+6. way to choose which type of food is used for naval per 4 day cycle
+
+7. way to create new 'expeidition' way to select expeiditions on the side bar + save system
+
+
+
+--afterthoughts--
+
+projection to see how much a certain amount of days would cost in gc and rations?
+
+
+
